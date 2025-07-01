@@ -1,5 +1,6 @@
 import path from "node:path";
 import { Marked } from "@ts-stack/markdown";
+import cheerio from "cheerio";
 
 export function normalizeTags(tags: string | string[]): string[] {
   if (!tags) {
@@ -12,6 +13,13 @@ export function normalizeTags(tags: string | string[]): string[] {
 }
 
 const excerptSeparator = /<!-- ?more ?-->/i;
+
+export const extractTitle = (content: string): string => {
+  const html = Marked.parse(content);
+  const $ = cheerio.load(html);
+
+  return $("h1").first().text() || "";
+};
 
 export const excerptFilter = (_input: unknown): any => {
   const input = _input as { content: string; excerpt: string };
