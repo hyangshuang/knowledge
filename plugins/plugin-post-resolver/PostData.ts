@@ -46,7 +46,6 @@ export function getPostInfo(
   });
 
   const contentTitle = extractTitle(content);
-  console.log("contentTitle", contentTitle);
   const createTime = dayjs(frontmatter.date) || dayjs();
   return {
     title: frontmatter.title || contentTitle || filename,
