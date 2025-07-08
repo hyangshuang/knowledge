@@ -2,6 +2,18 @@
 id: KB1751435394-1D7E
 sourceSHA: 161da4e341e18800335c8a4f05b2037e57d9c99c79b04e65f586450baae309a6
 ---
+# 我目前在做一次修改
+我目前在做一次修改
+# 插入一条连接
+> [跳转到AC](https://ac-test.alauda.cn/home)
+> 点击旁边的按钮 [跳转到confluence](https://confluence.alauda.cn/)
+# 插入一张图片
+## 全局图片：
+ ![Test-image](docs/public/爷们要战斗.png)
+无权限上传不了图片
+## 特定图片：
+![test-image2](../../../en/assets/爷们要战斗.png)
+无权限上传不了图片
 
 # ACP 部署策略
 
