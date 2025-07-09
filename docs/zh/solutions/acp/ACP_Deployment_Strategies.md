@@ -7,9 +7,11 @@ sourceSHA: 161da4e341e18800335c8a4f05b2037e57d9c99c79b04e65f586450baae309a6
 
 ## Overview
 
-在 Kubernetes 集群中使用标准滚动更新更新应用有时会带来风险。为降低风险，广泛采用了蓝绿部署和金丝雀部署等高级部署策略。Alauda Container Platform 完全兼容 Kubernetes API，并支持这些方法。
+在 Kubernetes 集群中使用标准滚动更新低风险，广泛采用了蓝绿部署和金丝雀部署等高级部署策略。Alauda Container Platform 完全兼容 Kubernetes API，并支持这些方法。
 
 下面介绍这些策略的原理及流量管理方式：
+级部署策略。Alauda Contain
+
 
 ### 理解部署策略
 
