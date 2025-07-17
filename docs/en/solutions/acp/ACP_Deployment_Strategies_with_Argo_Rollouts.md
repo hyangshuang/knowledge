@@ -1,7 +1,7 @@
 ---
 id: KB250500009
 ---
-# ACP Deployment Strategies with Argo Rollouts
+# ACP Deployment Strategies with Argo
 
 ## Overview
 
